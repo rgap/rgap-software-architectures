@@ -1,0 +1,431 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "type": "rectangle",
+      "id": "box_client",
+      "x": 300,
+      "y": 50,
+      "width": 250,
+      "height": 60,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_client",
+      "x": 300,
+      "y": 68,
+      "width": 250,
+      "height": 25,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Client",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "rectangle",
+      "id": "box_routes",
+      "x": 300,
+      "y": 200,
+      "width": 250,
+      "height": 75,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_routes",
+      "x": 300,
+      "y": 212.5,
+      "width": 250,
+      "height": 50,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Routes\n(receive requests)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "rectangle",
+      "id": "box_controllers",
+      "x": 300,
+      "y": 350,
+      "width": 250,
+      "height": 75,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_controllers",
+      "x": 300,
+      "y": 362.5,
+      "width": 250,
+      "height": 50,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Controllers\n(coordinate actions)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "rectangle",
+      "id": "box_services",
+      "x": 300,
+      "y": 500,
+      "width": 250,
+      "height": 75,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_services",
+      "x": 300,
+      "y": 512.5,
+      "width": 250,
+      "height": 50,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Services\n(application logic)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "rectangle",
+      "id": "box_repositories",
+      "x": 300,
+      "y": 650,
+      "width": 250,
+      "height": 75,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_repositories",
+      "x": 300,
+      "y": 662.5,
+      "width": 250,
+      "height": 50,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Repositories\n(manage data access)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "rectangle",
+      "id": "box_data",
+      "x": 300,
+      "y": 800,
+      "width": 250,
+      "height": 75,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text_data",
+      "x": 300,
+      "y": 812.5,
+      "width": 250,
+      "height": 50,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Data Layer\n(stores records)",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_client_to_routes",
+      "x": 425,
+      "y": 110,
+      "width": 0,
+      "height": 90,
+      "strokeColor": "#000000",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          90
+        ]
+      ],
+      "startBinding": {
+        "elementId": "box_client",
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "box_routes",
+        "gap": 0
+      },
+      "endArrowhead": "arrow",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_routes_to_controllers",
+      "x": 425,
+      "y": 275,
+      "width": 0,
+      "height": 75,
+      "strokeColor": "#000000",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "startBinding": {
+        "elementId": "box_routes",
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "box_controllers",
+        "gap": 0
+      },
+      "endArrowhead": "arrow",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_controllers_to_services",
+      "x": 425,
+      "y": 425,
+      "width": 0,
+      "height": 75,
+      "strokeColor": "#000000",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "startBinding": {
+        "elementId": "box_controllers",
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "box_services",
+        "gap": 0
+      },
+      "endArrowhead": "arrow",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_services_to_repositories",
+      "x": 425,
+      "y": 575,
+      "width": 0,
+      "height": 75,
+      "strokeColor": "#000000",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "startBinding": {
+        "elementId": "box_services",
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "box_repositories",
+        "gap": 0
+      },
+      "endArrowhead": "arrow",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    },
+    {
+      "type": "arrow",
+      "id": "arrow_repositories_to_data",
+      "x": 425,
+      "y": 725,
+      "width": 0,
+      "height": 75,
+      "strokeColor": "#000000",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          75
+        ]
+      ],
+      "startBinding": {
+        "elementId": "box_repositories",
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "box_data",
+        "gap": 0
+      },
+      "endArrowhead": "arrow",
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
