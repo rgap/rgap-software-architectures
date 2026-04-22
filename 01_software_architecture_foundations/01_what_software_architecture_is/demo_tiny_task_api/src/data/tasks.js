@@ -4,4 +4,4 @@ const tasks = [
   { id: 2, title: "Build a tiny API", completed: true }
 ];
 
-module.exports = tasks;
+export default tasks;

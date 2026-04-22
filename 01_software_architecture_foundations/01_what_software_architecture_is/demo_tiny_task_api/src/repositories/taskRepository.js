@@ -1,5 +1,5 @@
-const tasks = require('../data/tasks');
-const Task = require('../models/task');
+import tasks from '../data/tasks.js';
+import Task from '../models/task.js';
 
 class TaskRepository {
   getAllTasks() {
@@ -14,4 +14,4 @@ class TaskRepository {
   }
 }
 
-module.exports = new TaskRepository();
+export default new TaskRepository();

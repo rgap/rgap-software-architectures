@@ -1,5 +1,5 @@
-const express = require('express');
-const taskRoutes = require('./routes/taskRoutes');
+import express from 'express';
+import taskRoutes from './routes/taskRoutes.js';
 
 const app = express();
 
@@ -8,4 +8,4 @@ app.use(express.json());
 // Register routes
 app.use('/api', taskRoutes);
 
-module.exports = app;
+export default app;

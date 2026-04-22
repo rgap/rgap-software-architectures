@@ -1,4 +1,4 @@
-const taskService = require('../services/taskService');
+import taskService from '../services/taskService.js';
 
 class TaskController {
   getTasks(req, res) {
@@ -23,4 +23,4 @@ class TaskController {
   }
 }
 
-module.exports = new TaskController();
+export default new TaskController();

@@ -1,4 +1,4 @@
-const taskRepository = require('../repositories/taskRepository');
+import taskRepository from '../repositories/taskRepository.js';
 
 class TaskService {
   getTasks() {
@@ -15,4 +15,4 @@ class TaskService {
   }
 }
 
-module.exports = new TaskService();
+export default new TaskService();
