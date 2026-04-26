@@ -3,12 +3,14 @@ Dime que cosas sigue mi proyecto <project_name> segun esta clasificacion de arqu
 <clasificacion>
 Architectural Styles
   Runtime Interaction Styles
-    Request Response
-    Client Server
-    Pipe and Filter
-    Event Driven
-    Publish Subscribe
-    Decentralized Styles
+    Communication Patterns
+      Request Response
+      Publish Subscribe
+
+    Runtime Structure Styles
+      Client Server
+      Pipe and Filter
+      Event Driven
       Peer to Peer
 
   Deployment System Composition Styles
@@ -29,79 +31,58 @@ Architectural Styles
 
   Internal Application Structure Styles
     Layered Architecture
-      By Number of Logical Layers
-        2-Layer Architecture
-        3-Layer Architecture
-        N-Layer Architecture
-
-      Common 2-Layer Variants
-        Presentation Data
-        UI Business
-        Controller Model
-        View Model
-        Application Persistence
+      2-Layer Architecture
+      3-Layer Architecture
+      N-Layer Architecture
 
       Common 3-Layer Variants
         Presentation Business Data
         UI Business Data
         Controller Service Repository
         API Service Repository
-        View Service Repository
 
       Common N-Layer Variants
         Presentation Application Domain Infrastructure
         Presentation Application Domain Persistence
         API Application Domain Infrastructure Persistence
-        UI Application Business Data Integration
-        Interface Application Domain Infrastructure Persistence
 
-      UI Layered Patterns
-        MVC
-        MVP
-        MVVM
-        PAC
-        HMVC
-
-      Dependency Direction Variants
+      Layering Rule Variants
         Strict Layered Architecture
         Relaxed Layered Architecture
         Closed Layered Architecture
         Open Layered Architecture
 
     Component Based Architecture
-    Plugin Based Architecture
-    Domain Centered Structure
-    Data Centered Structure
-    Microkernel Architecture
+    Microkernel / Plugin Architecture
+    Data Centered Architecture
 
 Architectural Patterns
   Boundary and Dependency Patterns
     Clean Architecture
-    Hexagonal Architecture
+    Hexagonal Architecture / Ports and Adapters
     Onion Architecture
-    Ports and Adapters
     Screaming Architecture
 
-  Domain Modeling and Design Patterns
-    Domain Driven Design
-    Entities
-    Value Objects
-    Aggregates
-    Repositories
-    Domain Services
-    Bounded Contexts
-    Shared Kernel
-    Anti Corruption Layer
+  UI Architectural Patterns
+    MVC
+    MVP
+    MVVM
+    PAC
+    HMVC
 
-  Other Reusable Architectural Patterns
+  Distributed Systems / Integration / Data Consistency Patterns
+    API Gateway
+    Backend for Frontend
     CQRS
     Event Sourcing
     Saga
-    Strangler Fig
-    Backend for Frontend
-    API Gateway
     Anti Corruption Layer
+
+  Resilience Patterns
     Circuit Breaker
+
+  Migration / Modernization Patterns
+    Strangler Fig
 
 Code Organization
   Basic Monolith Layouts
@@ -117,14 +98,23 @@ Code Organization
     Route Colocated Feature Structure
     Feature Modules with Public API
 
+  Domain-Oriented Organization
+    Package by Domain
+    Package by Bounded Context
+    Package by Subdomain
+    Package by Aggregate
+    Domain Module with Internal Layers
+
   Hybrid Approaches
     Feature First with Internal Layers
     Domain Modules with Shared Kernel
     Route First with Shared Modules
-    Practical Hybrid Example
 
   Frontend Component Organization
     Atomic Design
+    Component First Organization
+    Route Based Organization
+    Feature Based Organization
 </clasificacion>
 
 Mi proyecto <project_name> esta hecho a partir de dos proyectos: frontend y backend
